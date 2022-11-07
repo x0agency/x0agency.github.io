@@ -1,0 +1,89 @@
+*{
+    font-family: "Agency FB";
+}
+body{
+    margin: 0;
+}
+.blue{
+    background-color: #0b00eb;
+}
+.white{
+    background-color: white;
+}
+
+/*Header*/
+#nav{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 1%;
+}
+#nav_logo{
+    height: 30px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 22.5px;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+    width: 90px;
+    height: 30px;
+    border-radius: 1000px;
+    margin: 5px;
+    transition: 0.25s;
+}
+nav a:hover{
+    box-shadow: 0 0 5px black;
+}
+#current_page{
+    background-color: white;
+    color: #0b00eb;
+    box-shadow: 0 0 5px black;
+    text-shadow: 0 0 0px black;
+}
+/*---------------------------------------------------------------------*/
+
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+#footer_logo{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#footer_logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+#footer_logo p{
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0;
+}
+#footer_socials{
+    display: flex;
+}
+#footer_socials a{
+    margin: 0 5px;
+}
+#footer_socials img{
+    height: 40px;
+}
+/*---------------------------------------------------------------------*/

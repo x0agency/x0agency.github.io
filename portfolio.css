@@ -1,0 +1,91 @@
+body{
+    background-color: #0b00eb;
+}
+
+#category{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#category h1{
+    font-size: 75px;
+}
+.blue h1{
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.white h1{
+    color: #0b00eb;
+}
+
+.category_content{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 60vh);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.project_row{
+    display: flex;
+}
+.project{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.project img{
+    width: 95%;
+    height: 54%;
+    margin-top: 3%;
+}
+.project h4{
+    font-size: 35px;
+    margin: 0;
+}
+.project h5{
+    font-size: 22.5px;
+    margin: 0;
+    font-weight: normal;
+    max-width: 90%;
+    text-align: center;
+}
+.project a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 1000px;
+    box-shadow: 0 0 10px black;
+    margin-top: 5px;
+    transition: 0.25s;
+}
+.project a:hover{
+    padding: 10px 15px;
+    margin: 0;
+}
+.blue .project a{
+    background-color: #0b00eb;
+    color: white;
+}
+.white .project a{
+    background-color: white;
+    color: blue;
+}
+.blue .project{
+    background-color: white;
+    color: #0b00eb;
+}
+.white .project{
+    background-color: #0b00eb;
+    color: white;
+}

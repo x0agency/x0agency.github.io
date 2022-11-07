@@ -1,0 +1,81 @@
+body{
+    background-color: #0b00eb;
+}
+
+#who_are_we{
+    height: 95vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#who_are_we h1{
+    width: 22.5%;
+    margin: 0 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+#who_are_we h2{
+    width: 72.5%;
+    margin-right: 2.5%;
+    color: white;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 80px;
+}
+
+#contacts{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact, #socials{
+    height: 75vh;
+    width: 75vh;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact a{
+    background-color: white;
+    font-size: 30px;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    text-decoration: none;
+    color: #0b00eb;
+}
+
+#socials a{
+    display: flex;
+    background-color: white;
+    border-radius: 1000px;
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+    color: #0b00eb;
+    font-size: 30px;
+}
+#socials img{
+    height: 50px;
+    margin-right: 10px;
+}
